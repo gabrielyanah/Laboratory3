@@ -3,48 +3,38 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
-    
-    <style name="ConstraintLayout">
-        <item name="android:background">@color/yellow_dark</item>
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
     </style>
 
-    <style name="CustomImage">
-        <item name="android:contentDescription">@string/pua</item>
+    <style name="Background">
+        <item name="android:background">@color/primaryLightColor</item>
     </style>
 
-    <style name="CustomTitle">
-        <item name="android:fontFamily">@font/amatica_sc_bold</item>
-        <item name="android:textSize">30sp</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:gravity">center_horizontal</item>
-    </style>z4
-
-    <style name="CustomLocation">
-        <item name="android:fontFamily">@font/amatica_sc_bold</item>
-        <item name="android:textSize">24sp</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:gravity">center_horizontal</item>
+    <style name="Title">
+        <!--<item name="android:fontFamily">@font/joti_one</item>-->
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:gravity">center</item>
     </style>
 
-    <style name="CustomDistance">
-        <item name="android:fontFamily">@font/amatica_sc_bold</item>
-        <item name="android:textSize">24sp</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:gravity">center_horizontal</item>
+    <style name="Location">
+        <!--<item name="android:fontFamily">@font/joti_one</item>-->
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
     </style>
 
-    <style name="CustomNext">
-        <item name="android:background">@android:color/darker_gray</item>
+    <style name="Distance">
+        <!--<item name="android:fontFamily">@font/joti_one</item>-->
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
     </style>
 
-    <style name="CustomBack">
-        <item name="android:background">@color/indigo_dark</item>
-
+    <style name="Button">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:background">@color/primaryDarkColor</item>
+        <item name="android:layout_width">119dp</item>
+        <item name="android:layout_height">62dp</item>
     </style>
-
-
 </resources>
